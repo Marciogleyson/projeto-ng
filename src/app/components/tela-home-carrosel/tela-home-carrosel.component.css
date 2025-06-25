@@ -1,0 +1,35 @@
+::ng-deep .custom-carousel .p-carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+img {
+  border-radius: 10px;
+  
+ 
+  
+}
+
+h2 {
+  min-height: 300px;
+  color: yellow;
+  
+}
+
+.parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  padding: 60px 20px;
+  background-color: #000;
+  font-size: 20px;
+  text-align: center;
+}

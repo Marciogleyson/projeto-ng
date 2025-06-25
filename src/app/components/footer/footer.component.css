@@ -1,0 +1,76 @@
+/* Painel de fundo escuro com texto claro */
+.footer-panel {
+  background-color: #121212 !important;
+  color: #ecf0f1 !important;
+  border: none;
+  box-shadow: none;
+}
+
+/* Conteúdo geral do rodapé */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 30px;
+  gap: 30px;
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Colunas individuais */
+.footer-info,
+.quick-links,
+.footer-social {
+  flex: 1 1 250px;
+}
+
+/* Títulos das seções */
+.footer-content h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Parágrafos e texto */
+.footer-content p,
+.footer-content li,
+.footer-content a {
+  color: #bdc3c7;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Lista de links */
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.quick-links li {
+  margin-bottom: 10px;
+}
+
+/* Ícones sociais */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  
+}
+
+/* Direitos autorais no fim do rodapé */
+.footer-copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #95a5a6;
+}

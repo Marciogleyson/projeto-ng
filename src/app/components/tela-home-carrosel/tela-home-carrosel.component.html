@@ -1,0 +1,37 @@
+<div class="flex justify-content-center items-center" style="height: calc(100vh - 100px); padding-top: 100px;">
+  <p-carousel [value]="fotos" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="4000"
+    styleClass="custom-carousel">
+    <ng-template pTemplate="item" let-foto>
+      <div class="flex justify-content-center w-full h-full">
+        <img [src]="foto.url" [alt]="foto.alt" class="border-round shadow-2"
+          style="max-height: 700px; width: auto; max-width: 100%; object-fit: cover;" />
+      </div>
+    </ng-template>
+  </p-carousel>
+</div>
+
+<div class="parallax"></div>
+
+<!-- Primeira imagem parallax -->
+<div class="parallax"
+  style="background-image: url('https://uploads.dicasdocanada.com.br/sites/21/2016/01/aluguel-de-carro-Canada-jpg.webp');">
+</div>
+
+<!-- Conteúdo entre parallax -->
+<div class="content">
+  <h2>Seção 1</h2>
+  <p>Texto sobre a primeira imagem.</p>
+</div>
+
+<!-- Segunda imagem parallax -->
+<div class="parallax" style="background-image: url('https://i.blogs.es/e2d7dc/original/1200_800.jpeg');"></div>
+
+<div class="content">
+  <h2>Seção 2</h2>
+  <p>Texto sobre a segunda imagem.</p>
+</div>
+
+<!-- Terceira imagem parallax -->
+<div class="parallax"
+  style="background-image: url('https://p.turbosquid.com/ts-thumb/to/nH0S3k/Tl/garage_final_0001/jpg/1696966464/1920x1080/fit_q99/5ae97e245aa553f3dfbf59dc435636364fb659bb/garage_final_0001.jpg');">
+</div>
