@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/projeto-ng/**/*",
+      "src": "dist/nome-do-projeto/**/*",
       "use": "@vercel/static"
     }
   ],
@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "alias": "projeto-ng.vercel.app/"
 }
+
+
+
+// https://projeto-ng.vercel.app/
